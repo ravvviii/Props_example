@@ -13,14 +13,29 @@ function App() {
    <div className="card-container">
       {/* Wrap the cards in a container with flex properties */}
       <Card
-        imageUrl="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=200&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        imageUrl="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
         title="Hinze Dam"
         description="Author"
+        btnProfile = "Read More"
       />
       <Card
-        imageUrl="https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?q=200&w=200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+        imageUrl="https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
         title="Nur-Sultan"
         description="Admin"
+        btnProfile = "Applaude"
+      />
+      <Card
+        imageUrl="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
+        title="
+        Daniel Xavier"
+        description="User"
+        btnProfile = "View Profile"
+      />
+      <Card
+        imageUrl="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&dpr=1"
+        title="Simon Robben"
+        description="User"
+        btnProfile = "Read More"
       />
     </div>
       
